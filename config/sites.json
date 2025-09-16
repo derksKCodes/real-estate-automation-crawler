@@ -1,0 +1,202 @@
+{
+  "staten_island": {
+    "base_url": "https://www.siborrealtors.com",
+    "search_url": "/search",
+    "timeout": 40,
+    "delay": 5.0,
+    "selectors": {
+      "list_container": "div#property-list",
+      "product_card": "div.property-tile",
+      "product_link": "a.property-link",
+      "product_title": "h2.property-title",
+      "price": "span.property-price",
+      "location": "span.property-location",
+      "image_url": "img.property-image::attr(src)",
+      "beds": "span.beds",
+      "baths": "span.baths",
+      "sqft": "span.sqft",
+      "acres": "span.lot-size",
+      "parking": "span.parking",
+      "garage": "span.garage",
+      "property_type": "span.property-type",
+      "agent_name": "div.agent-name",
+      "agent_license": "div.agent-license",
+      "agent_office": "div.agent-office",
+      "agent_phone": "div.agent-phone"
+    }
+  },
+
+  "brooklyn_mls": {
+    "base_url": "https://www.brooklynmls.com",
+    "search_url": "/buy/",
+    "timeout": 40,
+    "delay": 6.0,
+    "selectors": {
+      "list_container": "div.listings",
+      "product_card": "div.listing-card",
+      "product_link": "a.listing-link",
+      "product_title": "h2.listing-title",
+      "price": "span.price",
+      "location": "div.address",
+      "image_url": "img.listing-img::attr(src)",
+      "beds": "span.beds",
+      "baths": "span.baths",
+      "sqft": "span.sqft",
+      "acres": "span.lot-size",
+      "parking": "span.parking",
+      "property_type": "span.property-type",
+      "agent_name": "div.agent-name",
+      "agent_license": "div.agent-license",
+      "agent_office": "div.agent-office",
+      "agent_phone": "div.agent-phone"
+    }
+  },
+
+  "streeteasy_sales": {
+    "base_url": "https://streeteasy.com",
+    "search_url": "/for-sale/nyc",
+    "timeout": 50,
+    "delay": 8.0,
+    "selectors": {
+      "list_container": "ul#search-results",
+      "product_card": "li.SearchResultsList__item",
+      "product_link": "a[href*='/building/']",
+      "product_title": "address",
+      "price": "div.PriceInfo",
+      "location": "address",
+      "image_url": "img::attr(src)",
+      "beds": "div.Beds",
+      "baths": "div.Baths",
+      "sqft": "div.Sqft",
+      "property_type": "span.property-type",
+      "agent_name": "div.agent-name",
+      "agent_license": "div.agent-license",
+      "agent_office": "div.agent-office",
+      "agent_phone": "div.agent-phone"
+    }
+  },
+
+  "streeteasy_rentals": {
+    "base_url": "https://streeteasy.com",
+    "search_url": "/for-rent/nyc",
+    "timeout": 50,
+    "delay": 8.0,
+    "selectors": {
+      "list_container": "ul#search-results",
+      "product_card": "li.SearchResultsList__item",
+      "product_link": "a[href*='/building/']",
+      "product_title": "address",
+      "price": "div.PriceInfo",
+      "location": "address",
+      "image_url": "img::attr(src)",
+      "beds": "div.Beds",
+      "baths": "div.Baths",
+      "sqft": "div.Sqft",
+      "property_type": "span.property-type",
+      "agent_name": "div.agent-name",
+      "agent_license": "div.agent-license",
+      "agent_office": "div.agent-office",
+      "agent_phone": "div.agent-phone"
+    }
+  },
+
+  "onekey_sales": {
+    "base_url": "https://www.onekeymls.com",
+    "search_url": "/homes",
+    "timeout": 45,
+    "delay": 6.0,
+    "selectors": {
+      "list_container": "div.results",
+      "product_card": "div.propertyCard",
+      "product_link": "a.detailsLink",
+      "product_title": "h2.title",
+      "price": "span.price",
+      "location": "div.address",
+      "image_url": "img.main-photo::attr(src)",
+      "beds": "span.beds",
+      "baths": "span.baths",
+      "sqft": "span.sqft",
+      "acres": "span.lot-size",
+      "parking": "span.parking",
+      "property_type": "span.property-type",
+      "agent_name": "div.agent-name",
+      "agent_license": "div.agent-license",
+      "agent_office": "div.agent-office",
+      "agent_phone": "div.agent-phone"
+    }
+  },
+
+  "onekey_rentals": {
+    "base_url": "https://www.onekeymls.com",
+    "search_url": "/rentals",
+    "timeout": 45,
+    "delay": 6.0,
+    "selectors": {
+      "list_container": "div.results",
+      "product_card": "div.propertyCard",
+      "product_link": "a.detailsLink",
+      "product_title": "h2.title",
+      "price": "span.price",
+      "location": "div.address",
+      "image_url": "img.main-photo::attr(src)",
+      "beds": "span.beds",
+      "baths": "span.baths",
+      "sqft": "span.sqft",
+      "acres": "span.lot-size",
+      "parking": "span.parking",
+      "property_type": "span.property-type",
+      "agent_name": "div.agent-name",
+      "agent_license": "div.agent-license",
+      "agent_office": "div.agent-office",
+      "agent_phone": "div.agent-phone"
+    }
+  },
+
+  "onekey_commercial_sales": {
+    "base_url": "https://www.onekeymls.com",
+    "search_url": "/commercial",
+    "timeout": 45,
+    "delay": 6.0,
+    "selectors": {
+      "list_container": "div.results",
+      "product_card": "div.propertyCard",
+      "product_link": "a.detailsLink",
+      "product_title": "h2.title",
+      "price": "span.price",
+      "location": "div.address",
+      "image_url": "img.main-photo::attr(src)",
+      "sqft": "span.sqft",
+      "acres": "span.lot-size",
+      "property_type": "span.property-type",
+      "parking": "span.parking",
+      "agent_name": "div.agent-name",
+      "agent_license": "div.agent-license",
+      "agent_office": "div.agent-office",
+      "agent_phone": "div.agent-phone"
+    }
+  },
+
+  "onekey_commercial_rentals": {
+    "base_url": "https://www.onekeymls.com",
+    "search_url": "/commercial/rentals",
+    "timeout": 45,
+    "delay": 6.0,
+    "selectors": {
+      "list_container": "div.results",
+      "product_card": "div.propertyCard",
+      "product_link": "a.detailsLink",
+      "product_title": "h2.title",
+      "price": "span.price",
+      "location": "div.address",
+      "image_url": "img.main-photo::attr(src)",
+      "sqft": "span.sqft",
+      "acres": "span.lot-size",
+      "property_type": "span.property-type",
+      "parking": "span.parking",
+      "agent_name": "div.agent-name",
+      "agent_license": "div.agent-license",
+      "agent_office": "div.agent-office",
+      "agent_phone": "div.agent-phone"
+    }
+  }
+}
