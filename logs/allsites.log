@@ -1,0 +1,47 @@
+2025-09-15 11:08:19,767 - main - INFO - Starting real estate multi-scraper
+2025-09-15 11:08:19,791 - main - INFO - Loaded configurations for 8 sites: staten_island, brooklyn_mls, streeteasy_sales, streeteasy_rentals, onekey_sales, onekey_rentals, onekey_commercial_sales, onekey_commercial_rentals
+2025-09-15 11:08:19,800 - main - INFO - Starting scraper: staten_island
+2025-09-15 11:09:57,525 - main - WARNING - No listings scraped from staten_island
+2025-09-15 11:10:02,526 - main - INFO - Starting scraper: brooklyn_mls
+2025-09-15 11:13:34,397 - main - INFO - Starting real estate multi-scraper
+2025-09-15 11:13:34,400 - main - INFO - Loaded configurations for 8 sites: staten_island, brooklyn_mls, streeteasy_sales, streeteasy_rentals, onekey_sales, onekey_rentals, onekey_commercial_sales, onekey_commercial_rentals
+2025-09-15 11:13:34,403 - main - INFO - Starting scraper: staten_island
+2025-09-15 11:14:28,412 - main - WARNING - No listings scraped from staten_island
+2025-09-15 11:14:33,416 - main - INFO - Starting scraper: brooklyn_mls
+2025-09-15 11:15:12,251 - main - WARNING - No listings scraped from brooklyn_mls
+2025-09-15 11:15:17,253 - main - INFO - Starting scraper: streeteasy_sales
+2025-09-15 11:22:58,283 - main - INFO - Starting real estate multi-scraper
+2025-09-15 11:22:58,284 - main - INFO - Loaded configurations for 8 sites: staten_island, brooklyn_mls, streeteasy_sales, streeteasy_rentals, onekey_sales, onekey_rentals, onekey_commercial_sales, onekey_commercial_rentals
+2025-09-15 11:22:58,291 - main - INFO - Starting scraper: staten_island
+2025-09-15 11:24:47,454 - main - WARNING - No listings scraped from staten_island
+2025-09-15 11:24:52,455 - main - INFO - Starting scraper: brooklyn_mls
+2025-09-15 11:26:54,312 - main - WARNING - No listings scraped from brooklyn_mls
+2025-09-15 11:26:59,314 - main - INFO - Starting scraper: streeteasy_sales
+2025-09-15 11:27:23,489 - main - INFO - Starting real estate multi-scraper
+2025-09-15 11:27:23,490 - main - INFO - Loaded configurations for 8 sites: staten_island, brooklyn_mls, streeteasy_sales, streeteasy_rentals, onekey_sales, onekey_rentals, onekey_commercial_sales, onekey_commercial_rentals
+2025-09-15 11:27:23,490 - main - INFO - Starting scraper: staten_island
+2025-09-15 11:28:10,541 - main - WARNING - No listings scraped from staten_island
+2025-09-15 11:28:15,541 - main - INFO - Starting scraper: brooklyn_mls
+2025-09-15 11:28:54,110 - main - WARNING - No listings scraped from brooklyn_mls
+2025-09-15 11:28:59,111 - main - INFO - Starting scraper: streeteasy_sales
+2025-09-15 11:29:45,571 - main - WARNING - No listings scraped from streeteasy_sales
+2025-09-15 11:29:50,576 - main - INFO - Starting scraper: streeteasy_rentals
+2025-09-15 14:39:54,603 - main - INFO - Starting real estate multi-scraper
+2025-09-15 14:39:54,603 - main - INFO - Loaded configurations for 8 sites: staten_island, brooklyn_mls, streeteasy_sales, streeteasy_rentals, onekey_sales, onekey_rentals, onekey_commercial_sales, onekey_commercial_rentals
+2025-09-15 14:39:54,603 - main - INFO - Starting scraper: staten_island
+2025-09-15 14:40:00,615 - main - WARNING - No listings scraped from staten_island
+2025-09-15 14:40:05,625 - main - INFO - Starting scraper: brooklyn_mls
+2025-09-15 14:40:11,634 - main - WARNING - No listings scraped from brooklyn_mls
+2025-09-15 14:40:16,642 - main - INFO - Starting scraper: streeteasy_sales
+2025-09-15 14:40:22,657 - main - WARNING - No listings scraped from streeteasy_sales
+2025-09-15 14:40:27,664 - main - INFO - Starting scraper: streeteasy_rentals
+2025-09-15 14:40:33,679 - main - WARNING - No listings scraped from streeteasy_rentals
+2025-09-15 14:40:38,688 - main - INFO - Starting scraper: onekey_sales
+2025-09-15 14:40:44,734 - main - WARNING - No listings scraped from onekey_sales
+2025-09-15 14:40:49,735 - main - INFO - Starting scraper: onekey_rentals
+2025-09-15 14:40:55,815 - main - WARNING - No listings scraped from onekey_rentals
+2025-09-15 14:41:00,849 - main - INFO - Starting scraper: onekey_commercial_sales
+2025-09-15 14:41:06,901 - main - WARNING - No listings scraped from onekey_commercial_sales
+2025-09-15 14:41:11,904 - main - INFO - Starting scraper: onekey_commercial_rentals
+2025-09-15 14:41:17,961 - main - WARNING - No listings scraped from onekey_commercial_rentals
+2025-09-15 14:41:22,963 - main - INFO - Finished scraping all sites. Successful: 0, Failed: 8, Total listings: 0
